@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <title>Bic-Inform</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+</head>
+<body>
+    <main class="container">
+        <section class="sidebar">
+            <header class="sidebar__header">
+                <h1 class="visually-hidden">БИК-Информ — разработка и производство технических средств видеонаблюдения</h1>
+                <a class="logo" href="#"><img src="img/logo.svg" alt="Логотип Бик-Информ"></a>
+            </header>
+            <nav class="product-menu">
+                <div class="product-menu__title">Продукция</div>
+                <a class="product-menu__mobile">Каталог продукции</a>
+                <ul class="product-menu__list">
+                    <li class="product-menu__item">
+                        <a class="product-menu__link" href="">Поворотные PTZ видеокамеры <span class="product-menu__ico"></span></a>
+                        <ul class="product-menu-sub">
+                            <li class="product-menu-sub__item">
+                                <a class="product-menu-sub__link" href="#">
+                                    <img src="img/menu_ico.png" alt="">
+                                    <span>PTZ видеокамеры наружной установки</span>                                    
+                                </a>
+                            </li>
+                            <li class="product-menu-sub__item">
+                                <a class="product-menu-sub__link" href="#">
+                                    <img src="img/menu_ico.png" alt="">
+                                    <span>PTZ видеокамеры взрывозащищенные</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="product-menu__item">
+                        <a class="product-menu__link" href="">Стационарные видеокамеры <span class="product-menu__ico"></span></a>
+                        <ul class="product-menu-sub">
+                            <li class="product-menu-sub__item">
+                                <a class="product-menu-sub__link" href="#">
+                                    <img src="img/menu_ico.png" alt="">
+                                    <span>Стационарные видеокамеры наружной установки</span>                                    
+                                </a>
+                            </li>                            
+                        </ul>
+                    </li>
+                    <li class="product-menu__item">
+                        <a class="product-menu__link" href="">Поворотные PTZ видеокамеры <span class="product-menu__ico"></span></a>
+                        <ul class="product-menu-sub">
+                            <li class="product-menu-sub__item">
+                                <a class="product-menu-sub__link" href="#">
+                                    <img src="img/menu_ico.png" alt="">
+                                    <span>PTZ видеокамеры наружной установки</span>                                    
+                                </a>
+                            </li>
+                            <li class="product-menu-sub__item">
+                                <a class="product-menu-sub__link" href="#">
+                                    <img src="img/menu_ico.png" alt="">
+                                    <span>PTZ видеокамеры взрывозащищенные</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>            
+        </section>
+        <section class="main">
+            <header class="main__header">
+                <div class="header-contacts">
+                    <div class="header-contacts__item">
+                        <p class="header-contacts__city">Санкт-Петербург</p>
+                        <a class="header-contacts__phone header-contacts__link" href="tel:111" alt="Телефон Бик-Информ в Санк-Петербурге">8 (812) 447-95-55</a>
+                        <a class="header-contacts__mail header-contacts__link" href="mailto:bic@bic-inform.ru" alt="Почта Бик-Информ в Санкт-Петербурге">bic@bic-inform.ru</a>
+                    </div>
+                    <div class="header-contacts__item">
+                        <p class="header-contacts__city">Москва</p>
+                        <a class="header-contacts__phone header-contacts__link" href="tel:111" alt="Телефон Бик-Информ в Москве">8 (812) 447-95-55</a>
+                        <a class="header-contacts__mail header-contacts__link" href="mailto:bic@bic-inform.ru" alt="Почта Бик-Информ в Москве">bic@bic-inform.ru</a>
+                    </div>                    
+                </div>                
+
+                <div class="header-right">
+                    <a class="header-right__link header-right__link--eng" href="#">Eng</a>
+                    <a href="#" class="header-right__link header-right__link--download">Скачать каталог</a>
+                    <form class="search" action="#">
+                        <input class="search__input" type="text" placeholder="Поиск...">
+                        <button class="search__btn" type="submit"></button>
+                    </form>
+                </div>
+            </header>
+
+            <nav class="nav">
+                <a class="nav__mobile" href="#">Меню</a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link haveSub" href="#">Каталог</a>
+                        <ul class="nav__list nav__list--sub">
+                            <li>
+                                <a class="nav__link" href="#">Сертификаты</a>
+                            </li>
+                            <li>
+                                <a class="nav__link" href="#">Патенты</a>
+                            </li>
+                            <li>
+                                <a class="nav__link" href="#">Вакансии</a>
+                            </li>
+                            <li>
+                                <a class="nav__link" href="#">Фотогаллерея</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Отраслевые решения</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link haveSub" href="#">Новости</a>
+                        <ul class="nav__list nav__list--sub">
+                            <li>
+                                <a class="nav__link" href="#">Сертификаты</a>
+                            </li>
+                            <li>
+                                <a class="nav__link" href="#">Патенты</a>
+                            </li>
+                            <li>
+                                <a class="nav__link" href="#">Вакансии</a>
+                            </li>
+                            <li>
+                                <a class="nav__link" href="#">Фотогаллерея</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Поддержка</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Контакты</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link haveSub" href="#">О компании</a>
+                        <ul class="nav__list nav__list--sub">
+                            <li>
+                                <a class="nav__link" href="#">Сертификаты</a>
+                            </li>
+                            <li>
+                                <a class="nav__link" href="#">Патенты</a>
+                            </li>
+                            <li>
+                                <a class="nav__link" href="#">Вакансии</a>
+                            </li>
+                            <li>
+                                <a class="nav__link" href="#">Фотогаллерея</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="page-content">
+                <div class="slider">
+                    <a class="sider__item" href="#"><img src="img/slide.jpg" alt=""></a>
+                    <a class="sider__item" href="#"><img src="img/slide2.jpg" alt=""></a>
+                    <a class="sider__item" href="#"><img src="img/slide3.jpg" alt=""></a>
+                </div>
+
+                <div class="adv-title">                    
+                    <p class="adv-title__txt">Разработка и производство технических средств наблюдения, мониторинга и автоматизации производственных процессов, контроль качества продукции</p>
+                    <p class="adv-title__wrapper">
+                        <a class="adv-title__btn" href="#">Узнать больше</a>
+                    </p>                    
+                </div>
+
+                <div class="main-sertificates">
+                    <h2 class="main-h2">Наши лицензии и сертификаты</h2>
+                    <ul class="three-cols">                    
+                        <li class="three-cols__item">
+                            <a class="three-cols__link" href="#">
+                                <div class="three-cols__img three-cols__img--rmrs"></div>
+                                <p class="three-cols__title three-cols__title--blue">Сертификат Российского Морского Регистра Судоходства</p>
+                            </a>
+                        </li>
+                        <li class="three-cols__item">
+                            <a class="three-cols__link" href="#">
+                                <div class="three-cols__img three-cols__img--transport"></div>
+                                <p class="three-cols__title three-cols__title--green">Сертификат транспортной безопасности</p>
+                            </a>
+                        </li>
+                        <li class="three-cols__item">
+                            <a class="three-cols__link" href="#">
+                                <div class="three-cols__img three-cols__img--minprom"></div>
+                                <p class="three-cols__title three-cols__title--lgreen">Лицензия минпромторг по авиационной техники</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+
+                <div class="two-cols">
+                    <div class="two-cols__item">
+                        <h3>Новости компании</h3>
+                        <ul class="small-news__list">
+                            <li class="small-news__item">                                
+                                <a class="small-news__preview" href="#"><img src="img/news_prev.jpg" alt=""></a>                                    
+                                <div class="small-news__info">
+                                    <span class="small-news__date">13.11.2019</span>
+                                    <a class="small-news__title" href="#">Приглашаем на выставку ALL-over-IP 2019 в Москве</a>
+                                </div>
+                            </li>
+                            <li class="small-news__item">                                
+                                <a class="small-news__preview" href="#"><img src="img/news_prev.jpg" alt=""></a>                                    
+                                <div class="small-news__info">
+                                    <span class="small-news__date">13.11.2019</span>
+                                    <a class="small-news__title" href="#">Приглашаем на выставку ALL-over-IP 2019 в Москве</a>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="two-cols__item">
+                        <h3>Новинки оборудования</h3>
+                        <ul class="small-news__list">
+                            <li class="small-news__item">                                
+                                <a class="small-news__preview" href="#"><img src="img/novinka_prev.jpg" alt=""></a>                                    
+                                <div class="small-news__info">                                    
+                                    <a class="small-news__title" href="#">Опорно-поворотное устройство PTR-408Ex</a>
+                                </div>
+                            </li>
+                            <li class="small-news__item">                                
+                                <a class="small-news__preview" href="#"><img src="img/novinka_prev.jpg" alt=""></a>                                    
+                                <div class="small-news__info">                                    
+                                    <a class="small-news__title" href="#">Опорно-поворотное устройство PTR-408Ex</a>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="main-brands">
+                    <h2 class="main-h2">Собственные торговые марки</h2>
+                    <ul class="three-cols">
+                        <li class="three-cols__item">
+                            <a class="three-cols__link" href="#">
+                                <div class="three-cols__img three-cols__img--progmatic"></div>
+                                <p class="three-cols__title three-cols__title--blue">Профессиональное оборудование для видеонаблюдения</p>
+                            </a>
+                        </li>
+                        <li class="three-cols__item">
+                            <a class="three-cols__link" href="#">
+                                <div class="three-cols__img three-cols__img--optik"></div>
+                                <p class="three-cols__title three-cols__title--green">Профессиональная оптика для видеонаблюдения и машинного зрения</p>
+                            </a>
+                        </li>
+                        <li class="three-cols__item">
+                            <a class="three-cols__link" href="#">
+                                <div class="three-cols__img three-cols__img--giraffe"></div>
+                                <p class="three-cols__title three-cols__title--lgreen">Оптимальный выбор для организации видеонаблюдения</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <footer class="footer">
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li><a class="footer__link" href="#">Каталог</a></li>
+                        <li><a class="footer__link" href="#">Отраслевые решения</a></li>
+                        <li><a class="footer__link" href="#">Новости</a></li>
+                        <li><a class="footer__link" href="#">Поддержка</a></li>
+                        <li><a class="footer__link" href="#">Контакты</a></li>
+                        <li><a class="footer__link" href="#">О компании</a></li>
+                        <li><a class="footer__link" href="#">Политика конфиденциальности</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__contacts">
+                    <div class="footer__column">
+                        <p class="footer__city">Санкт-Петербург</p>
+                        <ul class="footer__info">
+                            <li>190020, ул. Бумажная, д. 9, корп.1, офис 201-209</li>
+                            <li>Тел: <a href="tel:(812) 447-95-55">(812) 447-95-55</a></li>
+                            <li>Факс: 447-95-75</li>
+                            <li>E-mail: <a href="mailto:bic@bic-inform.ru">bic@bic-inform.ru</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <p class="footer__city">Москва</p>
+                        <ul class="footer__info">
+                            <li>ул.Большая Почтовая, д.55/59, стр.1, офис 744</li>
+                            <li>Тел./Факс <a href="tel:+74956452392">(495) 645-23-92</a></li>
+                            <li>E-mail: <a href="mailto:msk@bic-inform.ru">msk@bic-inform.ru</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </main>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
